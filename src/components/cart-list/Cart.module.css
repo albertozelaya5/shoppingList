@@ -1,0 +1,43 @@
+.tableItems {
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f5f5ea;
+  grid-column: 2/-1;
+  border-radius: 8px;
+  /* height: fit-content; */
+}
+
+.tableItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tableItem:last-child {
+  margin-bottom: 0;
+}
+
+.tableItem:nth-child(odd) {
+  background-color: #e4efe7;
+}
+.tableItem:nth-child(even) {
+  background-color: #b4ebe6;
+}
+
+.itemQuant {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.crudOptions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icons {
+  cursor: pointer;
+}

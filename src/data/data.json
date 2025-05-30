@@ -1,0 +1,14 @@
+[
+  {
+    "article": "Banana 🍌",
+    "quantity": 1,
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, libero!",
+    "id": 1
+  },
+  {
+    "article": "WaterMelon 🍉",
+    "quantity": 5,
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit magnam officia odio reprehenderit porroconsequuntur?",
+    "id": 2
+  }
+]

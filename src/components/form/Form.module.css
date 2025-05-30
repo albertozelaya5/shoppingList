@@ -1,0 +1,32 @@
+input[type="text"],
+input[type="number"],
+textarea,
+.button {
+  border: 4px solid transparent;
+  border-radius: 5px;
+}
+
+.form {
+  margin-top: 0.4rem;
+}
+
+.formList {
+  list-style: none;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.button {
+  position: absolute;
+  bottom: 0.4rem;
+  margin-inline: 25%;
+}
+
+.button:active {
+  border: 3px solid black;
+}
