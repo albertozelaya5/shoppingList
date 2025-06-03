@@ -46,7 +46,7 @@ export default function Form({ list, onAddList, onUpdateList, item }) {
 
       <form className={styles.form} onSubmit={onSubmit}>
         <ul className={styles.formList}>
-          <Item name="name">
+          <Item name="Name">
             <input
               //
               type="text"
@@ -76,7 +76,9 @@ export default function Form({ list, onAddList, onUpdateList, item }) {
           </Item>
         </ul>
 
-        <button className={styles.button}>Add Item</button>
+        <div className={styles.buttonCenter}>
+          <button className={styles.button}>Add Item</button>
+        </div>
       </form>
     </aside>
   );
@@ -85,7 +87,7 @@ export default function Form({ list, onAddList, onUpdateList, item }) {
 function Item({ name, children }) {
   return (
     <li className={styles.list}>
-      <label>
+      <label className={styles.formLabel}>
         <strong>{name}</strong>
       </label>
       {children}

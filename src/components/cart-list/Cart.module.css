@@ -1,14 +1,14 @@
 .tableItems {
   padding: 1rem;
   box-sizing: border-box;
-  background-color: #f5f5ea;
+  background-color: #f8f9fa;
   grid-column: 2/-1;
   border-radius: 8px;
   /* height: fit-content; */
 }
 
 .tableItem {
-  border: 2px solid black;
+  box-shadow: 0px 2px #003827;
   border-radius: 5px;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
@@ -19,16 +19,16 @@
 }
 
 .tableItem:nth-child(odd) {
-  background-color: #e4efe7;
+  background-color: #e2fbf4;
 }
 .tableItem:nth-child(even) {
-  background-color: #b4ebe6;
+  background-color: #cbf5e8;
 }
 
 .itemQuant {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   align-items: center;
 }
 
@@ -40,4 +40,16 @@
 
 .icons {
   cursor: pointer;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+}
+
+.description {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
 }
