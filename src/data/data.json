@@ -2,13 +2,19 @@
   {
     "article": "Banana 🍌",
     "quantity": 1,
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, libero!",
+    "description": "Bananas are tropical fruits rich in potassium and fiber. They're great for a quick energy boost and commonly eaten as a natural snack.",
     "id": 1
   },
   {
-    "article": "WaterMelon 🍉",
+    "article": "Watermelon 🍉",
     "quantity": 5,
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit magnam officia odio reprehenderit porroconsequuntur?",
+    "description": "Watermelons are refreshing fruits with high water content, perfect for staying hydrated in hot weather. They’re also rich in antioxidants like lycopene.",
     "id": 2
+  },
+  {
+    "article": "Grapes 🍇",
+    "quantity": 10,
+    "description": "Grapes are small, sweet fruits that grow in clusters. They can be eaten fresh, dried into raisins, or used to make wine and juice.",
+    "id": 5
   }
 ]
